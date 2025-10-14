@@ -50,7 +50,7 @@ const Contact = () => {
     <section id="contato" className="relative py-20 sm:py-32 overflow-hidden">
       {/* --- IMAGEM DECORATIVA ESQUERDA --- */}
       <img
-        src="../../public/ananda-ipad.png"
+        src="/ananda-ipad.png"
         alt="Imagem decorativa"
         className={`absolute left-0 top-1/2 transform -translate-y-1/2 w-64 md:w-96 opacity-30 md:opacity-80 pointer-events-none transition-all duration-700 ease-in-out ${
           isVisible ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"
