@@ -58,11 +58,13 @@ const Hero = () => {
   alt="Decoração"
   id="decoracao"
   className="absolute bottom-0 right-0
-    w-[13.8rem] sm:w-[19.2rem] md:w-[27.6rem] lg:w-[33rem] xl:w-[38rem]
+    w-[14.5rem] sm:w-[20.2rem] md:w-[29rem] lg:w-[34.5rem] xl:w-[40rem]
     opacity-60 sm:opacity-75 md:opacity-90
     pointer-events-none
-    transition-all duration-700 ease-in-out"
+    transition-all duration-700 ease-in-out
+    translate-x-4 sm:translate-x-6 md:translate-x-8 lg:translate-x-10 xl:translate-x-12"
 />
+
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button
