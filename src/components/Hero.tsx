@@ -54,7 +54,7 @@ const Hero = () => {
           </p>
 
           <img
-            src="../../public/ananda-oi.png" // substitua pelo caminho da sua imagem
+            src="ananda-oi.png" // substitua pelo caminho da sua imagem
             alt="Decoração"
             id="decoracao"
             className="absolute bottom-0 right-0
