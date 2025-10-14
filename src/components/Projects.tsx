@@ -4,10 +4,10 @@ const Projects = () => {
   const projects = [
     {
       title: "MediLink – Saúde mais próxima de você",
-      type: "Em Desenvolvimento",
+      type: "Em Desenvolvimento - Projeto Acadêmico",
       year: "2025",
       description:
-        "Projeto integrador com foco em soluções digitais para facilitar o acesso à saúde. A proposta inclui funcionalidades como agendamento de consultas, telemedicina, suporte a idosos e recursos de emergência, sempre com atenção à acessibilidade, impacto social e propósito.",
+        "Projeto integrador (em grupo) com foco em soluções digitais para facilitar o acesso à saúde. A proposta inclui funcionalidades como agendamento de consultas, telemedicina, suporte a idosos e recursos de emergência, sempre com atenção à acessibilidade, impacto social e propósito.",
       highlights: "Foco social e acessibilidade",
       gradient: "pink" as const,
     },
