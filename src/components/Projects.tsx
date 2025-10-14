@@ -54,6 +54,17 @@ const Projects = () => {
       gradient: "pink" as const,
       videoUrl: "https://youtu.be/hnK0c5LcP2w",
     },
+    {
+      title: "Currículo Interativo",
+      type: "Site Pessoal",
+      year: "2022",
+      description:
+        "Site criado para apresentar meu currículo de forma interativa, desenvolvido durante a faculdade de ADS como um desafio pessoal, sem auxílio de IA.",
+      highlights: "Experimentação em design, organização de informações e habilidades técnicas em web",
+      tools: "HTML, CSS, JavaScript",
+      gradient: "tiffany" as const,
+      videoUrl: "https://youtu.be/RmJlfVFv1zM",
+    },
   ];
 
   return (
