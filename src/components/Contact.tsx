@@ -48,14 +48,23 @@ const Contact = () => {
 
   return (
     <section id="contato" className="relative py-20 sm:py-32 overflow-hidden">
-      {/* --- IMAGEM DECORATIVA ESQUERDA --- */}
-      <img
-        src="/ananda-ipad.png"
-        alt="Imagem decorativa"
-        className={`absolute left-0 top-1/2 transform -translate-y-1/2 w-64 md:w-96 opacity-30 md:opacity-80 pointer-events-none transition-all duration-700 ease-in-out ${
-          isVisible ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"
-        }`}
-      />
+
+   
+     {/* --- IMAGEM DECORATIVA --- */}
+<img
+  src="/ananda-ipad.png"
+  alt="Imagem decorativa"
+  className={`absolute w-52 sm:w-64 md:w-96 opacity-40 md:opacity-80 pointer-events-none transition-all duration-700 ease-in-out
+    ${
+      isVisible
+        ? "opacity-100"
+        : "opacity-0 translate-y-5"
+    }
+    /* --- POSIÇÃO RESPONSIVA --- */
+    left-auto right-0 bottom-0 translate-x-0
+    md:left-0 md:right-auto md:top-1/2 md:-translate-y-1/2
+  `}
+/>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto">
