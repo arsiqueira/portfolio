@@ -50,21 +50,27 @@ const Contact = () => {
     <section id="contato" className="relative py-20 sm:py-32 overflow-hidden">
 
    
-     {/* --- IMAGEM DECORATIVA --- */}
+ {/* --- IMAGEM DECORATIVA --- */}
 <img
   src="/ananda-ipad.png"
   alt="Imagem decorativa"
-  className={`absolute w-52 sm:w-64 md:w-96 opacity-40 md:opacity-80 pointer-events-none transition-all duration-700 ease-in-out
+  className={`absolute 
+    w-52 sm:w-60 md:w-96 
+    opacity-90 md:opacity-100 
+    pointer-events-none 
+    transition-all duration-700 ease-in-out
     ${
       isVisible
-        ? "opacity-100"
-        : "opacity-0 translate-y-5"
+        ? "opacity-100 translate-x-0"
+        : "opacity-0 translate-x-10"
     }
+
     /* --- POSIÇÃO RESPONSIVA --- */
-    left-auto right-0 bottom-0 translate-x-0
-    md:left-0 md:right-auto md:top-1/2 md:-translate-y-1/2
+    bottom-0 right-0 z-20         /* 👈 em telas pequenas: canto inferior direito e na frente */
+    md:left-0 md:right-auto md:top-1/2 md:-translate-y-1/2 md:z-0  /* 👈 em telas médias/grandes: lado esquerdo e atrás */
   `}
 />
+
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto">
@@ -99,9 +105,17 @@ const Contact = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-sm text-muted-foreground">{link.label}</p>
-                      <p className="font-medium group-hover:text-primary transition-colors">
-                        {link.value}
-                      </p>
+                      <p
+  className={`font-medium group-hover:text-primary transition-colors ${
+    link.label === "Email"
+      ? "text-xs sm:text-sm md:text-base break-words whitespace-normal overflow-hidden text-ellipsis"
+      : "text-sm sm:text-base"
+  }`}
+  style={{ wordBreak: link.label === "Email" ? "break-all" : "normal" }}
+>
+  {link.value}
+</p>
+
                     </div>
                   </div>
                 </a>

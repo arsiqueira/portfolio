@@ -54,15 +54,16 @@ const Hero = () => {
           </p>
 
           <img
-            src="ananda-oi.png" // substitua pelo caminho da sua imagem
-            alt="Decoração"
-            id="decoracao"
-            className="absolute bottom-0 right-0
-    w-36 sm:w-48 md:w-72 lg:w-80 xl:w-90
-    opacity-40 sm:opacity-60 md:opacity-80
+  src="ananda-oi.png"
+  alt="Decoração"
+  id="decoracao"
+  className="absolute bottom-0 right-0
+    w-40 sm:w-56 md:w-80 lg:w-96 xl:w-[28rem]
+    opacity-60 sm:opacity-75 md:opacity-90
     pointer-events-none
     transition-all duration-700 ease-in-out"
-          />
+/>
+
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button
