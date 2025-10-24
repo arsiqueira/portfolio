@@ -53,7 +53,7 @@ const Hero = () => {
             Desenvolvendo experiências digitais que unem <span className="font-semibold text-primary">criatividade, empatia e propósito</span>
           </p>
 
-      <img
+     <img
   src="ananda-oi.png"
   alt="Decoração"
   id="decoracao"
@@ -62,8 +62,9 @@ const Hero = () => {
     opacity-60 sm:opacity-75 md:opacity-90
     pointer-events-none
     transition-all duration-700 ease-in-out
-    translate-x-6 sm:translate-x-8 md:translate-x-10 lg:translate-x-12 xl:translate-x-14"
+    translate-x-7 sm:translate-x-9 md:translate-x-11 lg:translate-x-13 xl:translate-x-15"
 />
+
 
 
 
