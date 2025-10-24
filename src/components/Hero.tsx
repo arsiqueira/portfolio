@@ -62,8 +62,10 @@ const Hero = () => {
     opacity-60 sm:opacity-75 md:opacity-90
     pointer-events-none
     transition-all duration-700 ease-in-out
-    -translate-x-7 sm:-translate-x-9 md:-translate-x-11 lg:-translate-x-13 xl:-translate-x-15"
+    -translate-x-2 sm:-translate-x-4 md:-translate-x-6 lg:-translate-x-8 xl:-translate-x-10"
 />
+      
+
 
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
