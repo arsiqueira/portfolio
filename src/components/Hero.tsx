@@ -58,7 +58,7 @@ const Hero = () => {
   alt="Decoração"
   id="decoracao"
   className="absolute bottom-0 right-0
-    w-[14.5rem] sm:w-[20.2rem] md:w-[29rem] lg:w-[34.5rem] xl:w-[40rem]
+    w-[7rem] sm:w-[10rem] md:w-[14rem] lg:w-[17rem] xl:w-[20rem] 
     opacity-60 sm:opacity-75 md:opacity-90
     pointer-events-none
     transition-all duration-700 ease-in-out
